@@ -1,0 +1,262 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22/02/2015, 22:46:15
+    Author     : Rodolfo
+*/
+
+
+@import 'variables';
+
+ul,li,h1,h2,h3,h4,p,div,section,body
+{
+    margin: 0;
+    padding: 0;
+}
+
+li
+{
+    list-style-type: none;
+}
+
+a
+{
+    color: white;
+    text-decoration: none;
+}
+
+section
+{
+    padding-top: 20px;
+}
+
+button
+{
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    border: none;
+    font-size: 18px;
+    background-color: white;
+    font-family: $mainFont;
+    border: 1px solid $siteBg;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    img
+    {
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        margin-top: 8px;
+        margin-right: 10px;
+    }
+
+    p
+    {
+        color: $siteBg;
+        display: inline-block;
+        vertical-align: top;
+        padding-top: 8px;
+    }
+}
+
+h1
+{
+    text-transform: uppercase;
+    font-size: 28px;
+    line-height: 90px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+h2
+{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+h5
+{
+    font-size: 26px;
+    
+    span
+    {
+        text-transform: uppercase;
+    }
+    
+    img
+    {
+        width: 30px;
+        height: 30px;
+        padding-top: 3px;
+        margin-left: 10px;
+        cursor: pointer;
+    }
+}
+
+.clear
+{
+    clear: both;
+}
+
+.center
+{
+    margin: 0 auto;
+}
+
+body
+{
+    background-color: $siteBg;
+    font-family: $mainFont;
+    color: white;
+
+    &.alt-color
+    {
+        background-color: black;
+        -webkit-transition: all 2000ms ease;
+        -moz-transition: all 2000ms ease;
+        -ms-transition: all 2000ms ease;
+        -o-transition: all 2000ms ease;
+        transition: all 2000ms ease;
+    }
+}
+
+#header
+{
+    background-color: $altColor;
+    
+    #header-nav
+    {
+        width: $siteWidth;
+        height: auto;
+        font-family: $mainFont;
+        text-transform: uppercase;
+        position: relative;
+        padding-bottom: 50px;
+
+        #header-logo
+        {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            left: 50%;
+            top: 15px;
+            margin-left: -75px;
+            background-image: url('../images/t13logo_01.png');
+        }
+
+        ul
+        {
+            width: 100%;
+            height: auto;
+            text-align: center;
+            padding-top: 105px;
+
+            li
+            {
+                display: inline-block;
+                font-size: 28px;
+                margin-left: 35px;
+                margin-right: 35px;
+                cursor: pointer;
+
+                &:hover
+                    {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
+#footer
+{
+    width: 100%;
+    height: 50px;
+    background-color: $altColor;
+    text-align: center;
+    
+    h5
+    {
+        color: white;
+        margin: 0;
+        font-size: 20px;
+        line-height: 50px; 
+    }
+}
+
+.content
+{
+    margin-bottom: 100px;
+}
+
+.box
+{
+
+}
+
+#landing
+{
+    width: 100%;
+    height: 100%;
+
+    #landing-content
+    {
+        text-align: center;
+        position: relative;
+
+        #t13-logo
+        {
+            width: 195px;
+            height: 90px;
+            margin: 0 auto;
+            margin-top: 150px;
+        }
+
+
+        h1
+        {
+            margin-top: 50px;
+            font-size: 126px;
+            margin-bottom: 100px;
+        }
+
+        #landing-iframe
+        {
+            width: 400px;
+            height: 140px;
+            margin: auto;
+            margin-top: 95px;
+            position: relative;
+            padding-right: 110px;
+
+            #landing-iframe-hide
+            {
+                width: 115px;
+                height: 100%;
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                background-color: $siteBg;
+                z-index: 999;
+            }
+        }
+
+        #landing-play
+        {
+            width: 200px;
+            height: 200px;
+            margin: 0 auto;
+            margin-top: 200px;
+            background-image: url('../images/play.png');
+            text-align: center;
+            cursor: pointer;
+        }
+    }
+}

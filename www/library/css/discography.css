@@ -1,0 +1,48 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 22, 2015, 4:17:27 PM
+    Author     : Rodolfo
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13/09/2014, 16:40:06
+    Author     : Rodolfo
+*/
+#discography {
+  width: 100%;
+  text-align: center; }
+  #discography #discography-content {
+    width: 800px;
+    height: auto;
+    background: yellow; }
+    #discography #discography-content .discography-item {
+      width: 100%;
+      height: auto;
+      background: black; }
+      #discography #discography-content .discography-item .discography-item-line {
+        width: 80%;
+        height: 1px;
+        background-color: white;
+        margin: 0 auto;
+        margin-top: 30px;
+        margin-bottom: 30px; }
+      #discography #discography-content .discography-item .discography-item-cover {
+        width: 200px;
+        height: auto;
+        float: left;
+        background: blue; }
+      #discography #discography-content .discography-item ul {
+        width: 200px;
+        height: 100px;
+        float: left;
+        background: gray; }
+
+/*# sourceMappingURL=discography.css.map */

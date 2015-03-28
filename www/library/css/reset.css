@@ -1,0 +1,30 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 06/09/2014, 22:46:15
+    Author     : Rodolfo
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13/09/2014, 16:40:06
+    Author     : Rodolfo
+*/
+ul, li, section, header, footer, body {
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style-type: none; }
+
+a {
+  text-decoration: none;
+  color: #3864a0; }
+
+/*# sourceMappingURL=reset.css.map */
